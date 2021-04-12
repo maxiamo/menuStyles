@@ -1,0 +1,223 @@
+
+@media(min-width:680px){
+    .ul-1{
+        list-style-type: none;
+        display:flex;
+        justify-content: flex-end;
+        text-indent: 60px;
+        background-color: #99f;
+        padding:15px;
+    
+}
+.a-1{
+        text-decoration: none;
+        color:white;
+        padding:5px;
+        border-bottom: solid 2px #99f;
+
+
+        padding-bottom:6px;
+        transition:all 0.3s;
+}
+.a-1:hover {  
+        border-bottom-color:white;
+}
+}
+@media(max-width:680px){
+    .main-1{
+        width:50px;
+        height:50px;
+        background-color: #55b;
+        display:flex;
+        justify-content: flex-end;
+      position: absolute;
+        right:10px;
+      background-image: url(menu.png);
+        background-size: 40px;
+        background-repeat: no-repeat;
+        background-position: center
+    }
+    .a-1{
+        font-family: Verdana,Geneva,sans-serif; 
+        text-decoration: none;
+        color:white;
+        
+        
+    }
+   
+    .ul-1{
+      margin-top: 55px; 
+
+        list-style-type: none;
+        visibility: hidden;
+        z-index: 1;
+         
+      
+    }
+
+    .li-1{
+            transition: all 0.3s;
+        margin-top:2px;
+   
+         background-color:  #99f;
+        
+     opacity: 0;
+ width: 120px;
+  text-align: center;
+        justify-content: center;
+          display: inline-block;
+  position: relative;  
+  padding:10px;
+     
+        
+    }
+    .main-1:hover > ul> li{
+        visibility: visible;
+       opacity: 1;
+    }
+     .li-1:hover{
+        visibility: visible;
+      background-color:  #77d;
+    }
+
+
+    
+}
+
+
+.ul-2{
+    
+    
+    padding:24px;
+    list-style-type: none;
+     margin: 0; 
+  background-color: #3fa46a;
+    width: auto;
+    margin-top:40px;
+    margin-bottom:40px;
+    
+}
+.li-2 {
+    
+    padding:0px;
+     padding-top:20px;
+    padding-bottom:20px;
+    margin-left:20px;
+     margin-right:20px;
+    display: inline;
+    font-size:20px;
+    font-family: 'Century Gothic', sans-serif;
+}
+.main-2{
+    
+    display: flex;
+    justify-content: center;
+}
+.a-2:hover {
+    
+    padding-top:5px;
+      padding-bottom:6px;
+    border-bottom-color:white;
+     border-top-color:white;
+}
+
+.a-2{
+    margin:0px;
+   
+    text-decoration-color: white;
+text-decoration: none;
+  color:white;
+    border-top: solid 4px #3fa46a;
+     border-bottom: solid 4px #3fa46a;
+    padding-top:20px;
+      padding-bottom:20px;
+    transition:all 0.3s;
+}
+.ul-3{
+    padding:24px;
+    list-style-type: none;
+     margin: 0; 
+  background-color:  #5175C0;
+    width: auto;
+      margin-bottom:40px;
+    
+}
+.li-3 {
+    
+    padding:0px;
+     padding-top:20px;
+    padding-bottom:20px;
+    margin-left:20px;
+     margin-right:20px;
+    display: inline;
+    font-size:20px;
+    font-family: 'Century Gothic', sans-serif;
+}
+.main-3{
+    
+    display: flex;
+    justify-content: center;
+}
+.a-3:hover span{
+   color: white;
+}
+.ul-3:hover a{
+   color: #73a8e3;
+}
+.a-3{
+    text-decoration-color: white;
+text-decoration: none;
+  color:white;
+}
+.span-3{
+    transition:color 0.6s;
+}
+
+
+.ul-4{
+    padding:24px;
+    list-style-type: none;
+     margin: 0px; 
+  background-color: orange;
+    width: auto;
+      margin-bottom:40px;
+}
+.li-4 {
+    margin:0px;
+    padding:0px;
+     padding-top:20px;
+    padding-bottom:20px;
+    margin-left:12px;
+     margin-right:12px;
+    display: inline;
+    font-size:20px;
+    font-family: 'Century Gothic', sans-serif;
+}
+.main-4{
+    
+    display: flex;
+    justify-content: center;
+}
+.a-4:hover {
+       padding-top:23px;
+      padding-bottom:24px;
+   color:orange;
+    background-color: white;
+}
+
+.a-4{
+    background-color: orange;
+    margin:0px;  
+    text-decoration-color: white;
+text-decoration: none;
+  color:white;
+    padding-top:4px;
+      padding-bottom:3px;
+     padding-left:7px;
+      padding-right:7px;
+    transition:all 0.3s;
+
+}
+
+
+<link href="https://fonts.googleapis.com/css?family=Century+Gothic&display=swap" rel="stylesheet">
